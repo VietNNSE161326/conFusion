@@ -3,6 +3,10 @@
     padding:0px
 }
 
+.header-purple{
+    background-color: #b063d4;
+}
+
 .row-content{
     margin:0px auto;
     padding: 50px 0px 50px 0px;
