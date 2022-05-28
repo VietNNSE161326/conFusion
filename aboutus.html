@@ -105,7 +105,7 @@
         <div>
             <div>
                 <h2>Corporate Leadership</h2>
-                <ul class="nav nav-tabs">
+            <!--    <ul class="nav nav-tabs">
                     <li class="nav-item">
                         <a class="nav-link active" href="#peter"
                         role="tab" data-toggle="tab">Peter Pan,CEO
@@ -143,6 +143,64 @@
                     <div role="tabpanel" class="tab-pane fade" id="alberto">
                         <h3>Alberto Somayya <small>Executive Chef</small></h3>
                         <p>...</p>
+                    </div>
+                </div> -->
+                <div class="accordion">
+                    <div class="card">
+                        <div class="card-header" role="tab" id="peterhead">
+                        <h3 class="mb0">
+                            <a data-toggle="collapse" data-target="#peter">
+                            Peter Pan <small>Chief Epicurious Officer</small>
+                            </a>
+                        </h3>
+                        </div>
+                        <div class="collapse show" id="peter" aria-labelledby="peterhead" data-parent="#accordion">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="dannyhead">
+                        <h3 class="mb0">
+                            <a data-toggle="collapse" data-target="#danny" class="collapsed">
+                                Danny Witherspoon <small>Chief Finance Officer</small>
+                            </a>
+                        </h3>
+                        </div>
+                        <div class="collapse" id="danny" data-parent="#accordion">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="agumbehead">
+                        <h3 class="mb0">
+                            <a data-toggle="collapse" data-target="#agumbe" class="collapsed">
+                                Agumbe Tang <small>Chief Technology Officer</small>
+                            </a>
+                        </h3>
+                        </div>
+                        <div class="collapse" id="agumbe" data-parent="#accordion">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="albertohead">
+                        <h3 class="mb0">
+                            <a data-toggle="collapse" data-target="#alberto" class="collapsed">
+                                Alberto Somayya <small>Executive Chef</small>
+                            </a>
+                        </h3>
+                        </div>
+                        <div class="collapse" id="alberto" data-parent="#accordion">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">...</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="row row-content">
