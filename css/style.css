@@ -36,3 +36,15 @@
     border-bottom: 1px solid #ddd;
     padding: 10px;
 }
+
+.carousel {
+    background: #512DAB;
+}
+.carousel-item{
+    height: 500px;
+}
+.carousel-item img{
+    min-height: 100%;
+    max-width: 77%;
+    margin: auto;
+}
