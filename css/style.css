@@ -48,3 +48,8 @@
     max-width: 77%;
     margin: auto;
 }
+#carouselButton{
+    width: auto;
+    margin: auto;
+    z-index: 1;
+}
